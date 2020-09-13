@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <GVL Name="Grinder" Id="{c466ceeb-8e43-482e-bb0f-b83b0f0cf48b}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	GridingWellMs AT %Q* : BOOL;
+	StartGrindingWellPB AT %I* : BOOL;
+	StopGrindingWellPB AT %I* : BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
